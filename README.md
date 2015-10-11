@@ -9,7 +9,9 @@ git clone --depth 1 git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux
 #Make
 
 In directory busybox :
-    * [Required] Libncurses-dev
+
+    Required : 
+        Libncurses-dev
 
     sudo make defconfig
     sudo make menuconfig (general setup, static linking)
